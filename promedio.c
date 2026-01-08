@@ -2,7 +2,7 @@
 
 int main () {
 	int calificacion1, calificacion2, calificacion3, suma, total;
-	printf("bienvenido a la calculadora de promedios \t ingresa tus calificaciones en numeros del 1-100\n");
+	printf("bienvenido a la calculadora de promedios \n ingresa tus calificaciones en numeros del 1-100\n");
 	printf("ingresa tu primer nota:");
 	scanf("%d", &calificacion1);
 	if (calificacion1 < 0 || calificacion1 > 100) {
@@ -40,4 +40,5 @@ int main () {
 	} else {
 		printf("reprobaste, tienes que estudiar mas");
 	} return 0;
+
 }
