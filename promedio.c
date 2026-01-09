@@ -40,4 +40,5 @@ int main () {
 	} else {
 		printf("reprobaste, tienes que estudiar mas");
 	} return 0;
+
 }
