@@ -2,6 +2,8 @@
 
 int main () {
 	float calificacion1, calificacion2, calificacion3, total;
+	int repetir;
+	do {
 	printf("bienvenido a la calculadora de promedios \n ingresa tus calificaciones en numeros del 0-10\n");
 	printf("ingresa tu primer nota:");
 	scanf("%f", &calificacion1);
@@ -38,5 +40,10 @@ total = (calificacion1 + calificacion2 + calificacion3) / 3;
 		printf("aprobaste, pero tienes que mejorar");
 	} else {
 		printf("reprobaste, tienes que estudiar mas");
-	} return 0;
+	}
+		printf("\n quieres volver a usar la calculadora? (1 para si 0 para no) ");
+		scanf("%d", &repetir);
+	}while(repetir == 1);
+		printf("gracias por usar este programa");
+		return 0;
 }
